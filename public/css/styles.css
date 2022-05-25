@@ -446,11 +446,12 @@ header nav a:hover{
   align-items: center;
   justify-content: center;
   margin-top: 3vw;
+  width: 90vw;
 }
 
 .Video_Evento video{
   width: 100vw;
-  height: 70vw;
+  
   border: inset white 0.2vw
 }
 /*FIN BANNER22222222*/
