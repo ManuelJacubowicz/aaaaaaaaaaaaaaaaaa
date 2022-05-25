@@ -446,7 +446,7 @@ header nav a:hover{
   align-items: center;
   justify-content: center;
   margin-top: 3vw;
-  width: 90vw;
+  width: 100vw;
 }
 
 .Video_Evento video{
@@ -1196,7 +1196,7 @@ border-top: 1px solid #FAFF10;
 }
 
 .Video_Evento video{
-  width: 70vw;
+  width: 70%;
   border: #FAFF10 solid;
 }
 /*FIN BANNER22222222*/
