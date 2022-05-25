@@ -449,7 +449,8 @@ header nav a:hover{
 }
 
 .Video_Evento video{
-  width: 90vw;
+  width: 100vw;
+  height: 70vw;
   border: inset white 0.2vw
 }
 /*FIN BANNER22222222*/
