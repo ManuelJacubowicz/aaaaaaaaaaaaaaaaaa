@@ -150,9 +150,14 @@ div.lista-detalle div.comprar button{
   
   
   /*HEADER*/
+  .contenedor_header{
+    z-index:10000;
+    position: fixed;
+  }
   header{
+    background-color: black;
     width: 100vw;
-    position: relative;
+    position: absolute;
     display: inline-block;
     text-align: center;
       
@@ -313,17 +318,16 @@ header nav a:hover{
 .c_tc_pd{
   
   color: white;
-  font-size: 15vw;
+  font-size: 20vw;
   flex-grow: 0;
   font-family: 'Staatliches', cursive;
   font-weight: bold;
   margin-left: 2vw;
-  border-top: dotted yellow 2vw;
-  border-bottom: dotted yellow 2vw;
+  margin-bottom: 2vw;
   
 }
 .c_t_pd{
-  display: block;
+  display: none;
   color: white;
   font-size: 15vw;
   flex-grow: 0;
@@ -338,7 +342,7 @@ header nav a:hover{
   display: flex;
   color: white;
   flex-grow: 0.65;
-  font-size: 5vw;
+  font-size: 8vw;
   margin: 1vw;
   font-family: 'Staatliches', cursive;
   align-items: center;
@@ -351,7 +355,7 @@ header nav a:hover{
   display: flex;
  
   color: white;
-  font-size: 6vw;
+  font-size: 8vw;
   flex-grow: 0.15;
   margin-left: 2vw;
   font-family: 'Staatliches', cursive;
@@ -402,7 +406,7 @@ header nav a:hover{
   
 }
 .c_banco_pd img{
-  width: 15vw;
+  width: 20vw;
   margin: 1vw;
 }
 
@@ -440,7 +444,7 @@ header nav a:hover{
 }
 
 .Video_Evento video{
-  width: 70vw;
+  width: 90vw;
   border: inset white 0.2vw
 }
 /*FIN BANNER22222222*/
@@ -1083,7 +1087,7 @@ border-top: 1px solid #FAFF10;
   display: flex;
   color: white;
   flex-grow: 0.65;
-  font-size: 2vw;
+  font-size: 5vw;
   margin: 1vw;
   font-family: 'Staatliches', cursive;
   align-items: center;
@@ -1096,7 +1100,7 @@ border-top: 1px solid #FAFF10;
   display: flex;
  
   color: white;
-  font-size: 3vw;
+  font-size: 7vw;
   flex-grow: 0.15;
   margin-left: 1vw;
   font-family: 'Staatliches', cursive;
@@ -1107,7 +1111,7 @@ border-top: 1px solid #FAFF10;
 }
 .c_f_pd{
   color: white;
-  font-size: 4vw;
+  font-size: 6vw;
   flex-grow: 0.10;
   font-family: 'Staatliches', cursive;
   font-weight: bold;
@@ -1143,7 +1147,7 @@ border-top: 1px solid #FAFF10;
   
 }
 .c_banco_pd img{
-  width: 6vw;
+  width: 12vw;
   margin: 1vw;
 }
 
@@ -1938,7 +1942,12 @@ padding: 6%;
   margin-right: 2vw;
   
 }
+.c_tc_pd{
+ display: none;
+  
+}
 .c_t_pd{
+  display: block;
   color: white;
   font-size: 8vw;
   flex-grow: 0;
