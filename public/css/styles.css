@@ -310,7 +310,20 @@ header nav a:hover{
   margin-right: 2vw;
   
 }
+.c_tc_pd{
+  
+  color: white;
+  font-size: 15vw;
+  flex-grow: 0;
+  font-family: 'Staatliches', cursive;
+  font-weight: bold;
+  margin-left: 2vw;
+  border-top: dotted yellow 2vw;
+  border-bottom: dotted yellow 2vw;
+  
+}
 .c_t_pd{
+  display: block;
   color: white;
   font-size: 15vw;
   flex-grow: 0;
