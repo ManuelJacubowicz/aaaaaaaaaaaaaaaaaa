@@ -1193,11 +1193,12 @@ border-top: 1px solid #FAFF10;
   align-items: center;
   justify-content: center;
   margin-top: 3vw;
+  width: 100vw;
 }
 
 .Video_Evento video{
-  width: 70%;
-  border: #FAFF10 solid;
+  width: 100%;
+  border: inset white 0.2vw;
 }
 /*FIN BANNER22222222*/
    
